@@ -1,0 +1,5 @@
+ stage('codecoverage'){
+           steps{
+           sh'mvn org.jacoco:jacoco-maven-plugin:0.8.3'
+       }
+}
